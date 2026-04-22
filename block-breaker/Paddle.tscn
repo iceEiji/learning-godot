@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://catub272glb7b"]
 
+[ext_resource type="PhysicsMaterial" uid="uid://cgmileq708iqy" path="res://no_friction.tres" id="1_glji8"]
 [ext_resource type="Script" uid="uid://cnfcm7o7ndvvo" path="res://Paddle.gd" id="1_ujhtd"]
 [ext_resource type="Texture2D" uid="uid://baujqhq6ih4w" path="res://art/paddle.png" id="2_glji8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5h5e0"]
 size = Vector2(95, 22)
 
-[node name="Paddle" type="CharacterBody2D" unique_id=286546010]
+[node name="Paddle" type="StaticBody2D" unique_id=1861040049]
+physics_material_override = ExtResource("1_glji8")
 script = ExtResource("1_ujhtd")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=688056731]

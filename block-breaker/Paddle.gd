@@ -1,7 +1,7 @@
-extends CharacterBody2D
+extends StaticBody2D
 
 
-@export var speed: float = 400.0
+@export var speed: float = 500.0
 var screen_size: Vector2
 
 func _ready() -> void:
@@ -15,6 +15,5 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("move_right"):
 		direction = 1.0
 	
-	velocity.x = direction * speed
-	move_and_collide(velocity * delta)
+	position.x += direction * speed * delta
 	position.x = clamp(position.x, 0, screen_size.x)
