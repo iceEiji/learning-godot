@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yajpef0047bt"
-path="res://.godot/imported/element_green_square_glossy.png-c391bbfe3be3b397160d85d2beeeb0ae.ctex"
+uid="uid://baujqhq6ih4w"
+path="res://.godot/imported/paddle.png-d3f7c4a6bd36c30bec1ddd77e29f8a87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/element_green_square_glossy.png"
-dest_files=["res://.godot/imported/element_green_square_glossy.png-c391bbfe3be3b397160d85d2beeeb0ae.ctex"]
+source_file="res://art/paddle.png"
+dest_files=["res://.godot/imported/paddle.png-d3f7c4a6bd36c30bec1ddd77e29f8a87.ctex"]
 
 [params]
 
