@@ -64,9 +64,11 @@ curve = SubResource("Curve2D_ig7tw")
 
 [node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=1394599056]
 stream = SubResource("AudioStreamOggVorbis_7mycd")
+volume_db = -30.0
 
 [node name="DeathSound" type="AudioStreamPlayer2D" parent="." unique_id=1795809372]
 stream = ExtResource("5_lquwl")
+volume_db = -30.0
 
 [connection signal="hit" from="Player" to="." method="game_over"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
