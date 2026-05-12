@@ -13,7 +13,11 @@ config_version=5
 config/name="Block Breaker"
 run/main_scene="uid://dpgmacyta8k7o"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://btv5dlf5hy2ux"
+
+[autoload]
+
+GameLayout="*uid://ctqiu36bpifii"
 
 [display]
 

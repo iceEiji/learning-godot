@@ -2,13 +2,14 @@
 
 [ext_resource type="PhysicsMaterial" uid="uid://cgmileq708iqy" path="res://no_friction.tres" id="1_3tj6u"]
 [ext_resource type="Texture2D" uid="uid://b2iqfyvvi2fuc" path="res://art/ball.png" id="1_gk6bx"]
-[ext_resource type="Script" uid="uid://bs8g7cnk1jocw" path="res://Ball.gd" id="1_lww6v"]
+[ext_resource type="Script" uid="uid://bs8g7cnk1jocw" path="res://ball.gd" id="1_lww6v"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_lww6v"]
 
 [node name="Ball" type="RigidBody2D" unique_id=209403469]
 physics_material_override = ExtResource("1_3tj6u")
 gravity_scale = 0.0
+max_contacts_reported = 2
 linear_damp_mode = 1
 angular_damp_mode = 1
 script = ExtResource("1_lww6v")

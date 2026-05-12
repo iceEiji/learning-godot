@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://dpgmacyta8k7o"]
 
-[ext_resource type="Script" uid="uid://cpxnirqfkcuv" path="res://Main.gd" id="1_cm0pq"]
-[ext_resource type="PackedScene" uid="uid://catub272glb7b" path="res://Paddle.tscn" id="1_uu6xs"]
-[ext_resource type="PackedScene" uid="uid://b47mqw8v3v5oa" path="res://Ball.tscn" id="2_r0du0"]
+[ext_resource type="Script" uid="uid://cpxnirqfkcuv" path="res://main.gd" id="1_cm0pq"]
+[ext_resource type="PackedScene" uid="uid://catub272glb7b" path="res://paddle.tscn" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://b47mqw8v3v5oa" path="res://ball.tscn" id="2_r0du0"]
 [ext_resource type="PhysicsMaterial" uid="uid://cgmileq708iqy" path="res://no_friction.tres" id="3_r0du0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cm0pq"]
@@ -18,8 +18,11 @@ size = Vector2(17, 1296)
 script = ExtResource("1_cm0pq")
 
 [node name="Paddle" parent="." unique_id=286546010 instance=ExtResource("1_uu6xs")]
+position = Vector2(352, 1160)
 
 [node name="Ball" parent="." unique_id=209403469 instance=ExtResource("2_r0du0")]
+position = Vector2(352, 1136)
+max_contacts_reported = 4
 
 [node name="TopWall" type="StaticBody2D" parent="." unique_id=2069816107]
 physics_material_override = ExtResource("3_r0du0")
@@ -41,3 +44,5 @@ physics_material_override = ExtResource("3_r0du0")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" unique_id=1091762587]
 position = Vector2(-7.5, 632)
 shape = SubResource("RectangleShape2D_3dxm6")
+
+[connection signal="body_entered" from="Ball" to="Ball" method="_on_body_entered"]

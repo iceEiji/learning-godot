@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://catub272glb7b"]
 
 [ext_resource type="PhysicsMaterial" uid="uid://cgmileq708iqy" path="res://no_friction.tres" id="1_glji8"]
-[ext_resource type="Script" uid="uid://cnfcm7o7ndvvo" path="res://Paddle.gd" id="1_ujhtd"]
+[ext_resource type="Script" uid="uid://cnfcm7o7ndvvo" path="res://paddle.gd" id="1_ujhtd"]
 [ext_resource type="Texture2D" uid="uid://baujqhq6ih4w" path="res://art/paddle.png" id="2_glji8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5h5e0"]
