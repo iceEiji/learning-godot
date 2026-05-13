@@ -11,13 +11,15 @@ config_version=5
 [application]
 
 config/name="Block Breaker"
-run/main_scene="uid://dpgmacyta8k7o"
+run/main_scene="uid://bvgfjnuq6ojgy"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="uid://btv5dlf5hy2ux"
 
 [autoload]
 
 GameLayout="*uid://ctqiu36bpifii"
+GameManager="*uid://ciavcrfhdwwve"
+UIManager="*uid://dnt8fpeu7enbt"
 
 [display]
 

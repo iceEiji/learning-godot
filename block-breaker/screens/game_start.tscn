@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://dme07n4e8cov4"]
+
+[ext_resource type="Script" uid="uid://d20pnb4vn0mx3" path="res://screens/game_start.gd" id="1_24vw7"]
+
+[node name="GameStart" type="Control" unique_id=1548896852]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_24vw7")
+
+[node name="TitleLabel" type="Label" parent="." unique_id=20010118]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 312.0
+offset_top = 628.5
+offset_right = 408.0
+offset_bottom = 651.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "ブロック崩し"
+
+[node name="StartButton" type="Button" parent="." unique_id=1627456100]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 337.0
+offset_top = 1249.0
+offset_right = 383.0
+offset_bottom = 1280.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Start"
