@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byuuyretyscxi"
-path="res://.godot/imported/life.png-55c7227e50f805f90728549b47ebadb3.ctex"
+uid="uid://b1je5g8sfucoy"
+path="res://.godot/imported/block_purple.png-921c4417bc8676009f98c0bd4bb77e71.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/life.png"
-dest_files=["res://.godot/imported/life.png-55c7227e50f805f90728549b47ebadb3.ctex"]
+source_file="res://assets/sprites/block_purple.png"
+dest_files=["res://.godot/imported/block_purple.png-921c4417bc8676009f98c0bd4bb77e71.ctex"]
 
 [params]
 

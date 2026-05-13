@@ -1,6 +1,6 @@
 extends Node2D
 
-const BlockScene = preload("res://block.tscn")
+const BlockScene = preload("res://objects/block.tscn")
 
 # グリッド設定
 ## 横の個数
