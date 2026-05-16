@@ -21,8 +21,8 @@ func _process(delta: float) -> void:
 ## ブロックの生成
 func _spawn_blocks() -> void:
 	var screen = get_viewport_rect().size
-	var columns = GameLayout.GRID_COLUMNS
-	var rows = GameLayout.GRID_ROWS
+	var columns = GameLayout.MAX_GRID_COLUMNS
+	var rows = GameLayout.MAX_GRID_ROWS
 
 	# 幅基準でブロックサイズを計算
 	var block_w = screen.x / columns
